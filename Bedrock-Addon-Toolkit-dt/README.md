@@ -1,8 +1,9 @@
 
 
-============================================================
+
 Function:
-============================================================
+============================
+
 this software should provide an easy way to do these things if it gets finished:
 
   Addon Scans for:
@@ -49,49 +50,42 @@ everything controlled from an simply gui
 
 Work in Progress....
 
-============================================================
+
 Progress:
-============================================================
+============================
+
 Projekt structure:first tests done
 create a gui: first tests done but some errors with pathdeclarations and input of textfields so just like a picture and some things are missing
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-functions:
-(at the moment more or less ideas what and how)
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+functions:(at the moment more or less ideas what and how)
+  
   base functions:first few functions for base tasks implemented but some errors still
-
----------------------------
+    ---------------------------
   import pack from:
     zip/mcaddon/mcpack:
-    folder:
-    
- ----------------------   
+    folder:  
+    ---------------------------   
    export pack to:
     zip/mcaddon/mcpack:
     folder:
-
-------------------------
-  checks:
+    ---------------------------
+   checks:
     Compability: needs changes
     validate: needs testing
     manifest:
     packname_readable:
-    
---------------------------    
+     ---------------------------    
   updates:
     jsbeautify:needs testing
     version_update:
     code_version_update:
- 
- -------------------------
+      ---------------------------
   lib management:
     import pack from workdir:
     create files to store additional information: 
     define additional informations:
-    implement autoupdate when update is done:
-    
- ----------------------------   
+    implement autoupdate when update is done
+        ---------------------------   
   build compilation:
     set_packname:
     set_author:
@@ -104,14 +98,14 @@ functions:
     add option for prim shader pack:
     add option for API Addition:
     
-============================================================
+
 inspiration and at the moment main source:
-============================================================
+============================
 https://github.com/RavinMaddHatter/Bedrock-Addon-Compatiblity-Tool
 
-============================================================
+
 etc:
-============================================================
+============================
  free to use for everyone :D 
  feel also free in helping and commenting as you see early development and i am relative new to py and bedrock development :D 
  i think a lot of us want this and maybe i or we together can make it or someone builds on some ideas and we can make it even better than i even hoped or planed.

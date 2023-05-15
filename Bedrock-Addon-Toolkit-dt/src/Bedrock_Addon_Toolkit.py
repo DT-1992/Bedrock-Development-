@@ -39,7 +39,7 @@ if __name__ == "__main__":
     from tkinter import messagebox
     from tkinter import StringVar, Button, Label, Entry, Tk, Checkbutton, END, ACTIVE
     from tkinter import filedialog, Scale,DoubleVar,HORIZONTAL,IntVar,Listbox, ANCHOR
-    
+    from tkinter import *
 
 
 
@@ -62,9 +62,9 @@ if __name__ == "__main__":
     GUI-defs
     """
     def browse_workdir_from_gui():
-        tempPath.set()
+        tempPath.set(filedialog.askdirectory())
     def set_workdir_from_gui():
-        tempPath.set("C:/Bedrock Development/Bedrock-Addon-Toolkit-dt/src/temp")
+        tempPath.set(filedialog.askdirectory())
 
     def preview_pack():
         if Bedrock_Preview_check==1:
@@ -85,9 +85,9 @@ if __name__ == "__main__":
     
     def browse_pack_folder():
         #browse for a structure file.
-        packPath.set(filedialog.askopenfilename)
+        folderPath.set(filedialog.askdirectory())
     def load_pack_folder_from_gui():
-        load_pack_folder(packPath.get(),tempPath)
+        load_pack_folder(folderPath.get(),tempPath)
     
     def check_compability_from_gui():
         check_compatiblity("/temp/base/","/temp/pack/")

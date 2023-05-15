@@ -81,13 +81,13 @@ if __name__ == "__main__":
         packPath.set(filedialog.askopenfilename(filetypes=(
             ("addon", "*.mcaddon *.MCADDON *.MCPACK *mcpack"),("zip", "*.zip *.ZIP") )))
     def load_pack_zip_from_gui():
-        load_pack_zip(packPath.get(),tempPath)
+        load_pack_zip(packPath.get(),tempPath.get())
     
     def browse_pack_folder():
         #browse for a structure file.
         folderPath.set(filedialog.askdirectory())
     def load_pack_folder_from_gui():
-        load_pack_folder(folderPath.get(),tempPath)
+        load_pack_folder(folderPath.get(),tempPath.get())
     
     def check_compability_from_gui():
         check_compatiblity("/temp/base/","/temp/pack/")

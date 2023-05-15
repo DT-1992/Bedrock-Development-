@@ -62,8 +62,8 @@ functions:(at the moment more or less ideas what and how)
   base functions:first few functions for base tasks implemented but some errors still
     ---------------------------
   import pack from:
-    zip/mcaddon/mcpack:
-    folder:  
+    zip/mcaddon/mcpack: import to workfolder works 
+    folder:  import to workfolder works (if run as admin)
     ---------------------------   
    export pack to:
     zip/mcaddon/mcpack:

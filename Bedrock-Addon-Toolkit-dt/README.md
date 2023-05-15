@@ -60,10 +60,11 @@ create a gui: first tests done but some errors with pathdeclarations and input o
 functions:(at the moment more or less ideas what and how)
   
   base functions:first few functions for base tasks implemented but some errors still
+  
     ---------------------------
   import pack from:
     zip/mcaddon/mcpack: import to workfolder works 
-    folder:  import to workfolder works (if run as admin)
+    folder: import to workfolder works (if run as admin)
     ---------------------------   
    export pack to:
     zip/mcaddon/mcpack:
